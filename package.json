@@ -1,0 +1,11 @@
+{
+  "name": "stop-terror",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web estático de habitaciones de escape de terror",
+  "scripts": {
+    "build-css": "sass --no-source-map scss/main.scss styles/main.css",
+    "watch-css": "sass --watch scss/main.scss:styles/main.css"
+  },
+  "devDependencies": { "sass": "^1.83.0" }
+}
