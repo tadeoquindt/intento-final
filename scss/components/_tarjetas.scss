@@ -1,0 +1,23 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+@use "../utilities/extends";
+
+.tarjeta-custom {
+  @extend %superficie-con-sombra;
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+  border: 1px solid $color-tarjeta-borde;
+  background-color: $color-tarjeta-fondo;
+  color: $color-texto-blanco;
+  @include transicion-suave(transform, 0.3s, ease);
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.55);
+    border-color: rgba(220, 53, 69, 0.65);
+  }
+  .card-body { padding: 1.2rem; }
+  .card-title { color: $color-rosa-titulo; margin-bottom: 0.8rem; }
+  .card-text { margin-bottom: 1rem; overflow-wrap: anywhere; }
+  @include responder-a("tablet") { .card-body { padding: 1.5rem; } }
+}

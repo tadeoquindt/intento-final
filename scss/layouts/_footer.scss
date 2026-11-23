@@ -1,0 +1,9 @@
+@use "../utilities/variables" as *;
+.site-footer {
+  p { color: $color-texto-blanco; font-size: 0.9rem; letter-spacing: 0.3px; }
+  .list-inline-item a {
+    color: $color-texto-blanco;
+    transition: opacity 0.3s ease;
+    &:hover { opacity: 0.75; text-decoration: underline !important; }
+  }
+}

@@ -1,0 +1,21 @@
+@use "../utilities/variables" as *;
+@use "../utilities/mixins" as *;
+.navbar {
+  .navbar-brand {
+    min-width: 0;
+    font-family: $fuente-titulos;
+    letter-spacing: 1px;
+    img {
+      flex: 0 0 auto;
+      object-fit: cover;
+      @include transicion-suave(transform, 0.3s, ease);
+      &:hover { transform: scale(1.08) rotate(-3deg); }
+    }
+  }
+  .navbar-nav { gap: 0.25rem; }
+  .nav-link {
+    font-weight: 600;
+    @include transicion-suave(color, 0.2s, ease);
+    &.active, &:hover { color: $color-rosa-titulo !important; }
+  }
+}
