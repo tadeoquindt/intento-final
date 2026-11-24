@@ -18,6 +18,6 @@ Sitio web estático de cinco páginas sobre habitaciones de Escape Room de terro
 6. Abrir `index.html` con Live Server.
 
 ## Publicación
-enlace del sitio web:git push -u origin master
+enlace del sitio web:https://intento-final.vercel.app/
 
 
