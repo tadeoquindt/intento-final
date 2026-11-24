@@ -18,8 +18,6 @@ Sitio web estático de cinco páginas sobre habitaciones de Escape Room de terro
 6. Abrir `index.html` con Live Server.
 
 ## Publicación
-Publicar la carpeta raíz en Vercel o Netlify.
+enlace del sitio web:git push -u origin master
 
-**Sitio publicado:** PENDIENTE DE AGREGAR EL LINK DE VERCEL O NETLIFY.
 
-La consigna solicita un repositorio GitHub público y al menos dos commits descriptivos. Hacé esos commits desde tu repositorio.
